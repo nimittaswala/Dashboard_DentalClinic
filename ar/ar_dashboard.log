@@ -1,0 +1,21 @@
+2026-05-09 21:16:59 [INFO] ━━━ AR Dashboard initialized for Pristine Dental Center on port 5002 ━━━
+2026-05-09 21:16:59 [INFO] Sheet ID: 1WJecMp3LX9sncgzeJx1Q4z2Ndi4Ts7uHA8448wyngAs
+2026-05-09 21:16:59 [INFO] Credentials path: C:\dental_automation\ar\credentials.json
+2026-05-09 21:16:59 [INFO] Log file: C:\dental_automation\ar\ar_dashboard.log
+2026-05-09 21:16:59 [INFO] Starting AR Dashboard server on 0.0.0.0:5002
+2026-05-09 21:17:11 [ERROR] Unhandled exception on GET /favicon.ico: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "C:\Users\prist\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\prist\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\prist\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prist\AppData\Roaming\Python\Python313\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\prist\AppData\Roaming\Python\Python313\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-09 21:17:14 [INFO] /api/claims served 26084 claims, last push: 2026-05-09 19:00

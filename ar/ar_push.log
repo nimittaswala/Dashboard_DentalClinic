@@ -1,0 +1,413 @@
+2026-05-09 12:47:59 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 12:47 ===
+2026-05-09 12:47:59 [INFO] Database connected.
+2026-05-09 12:48:00 [INFO] ERROR: 1054 (42S22): Unknown column 'c.AptNum' in 'on clause'
+2026-05-09 12:48:00 [INFO] Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'c.AptNum' in 'on clause'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\dental_automation\ar\ar_push.py", line 139, in main
+    cursor.execute(QUERY_OUTSTANDING_CLAIMS)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'c.AptNum' in 'on clause'
+
+2026-05-09 12:50:34 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 12:50 ===
+2026-05-09 12:50:34 [INFO] Database connected.
+2026-05-09 12:50:35 [INFO] ERROR: 1054 (42S22): Unknown column 'c.AptNum' in 'on clause'
+2026-05-09 12:50:35 [INFO] Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'c.AptNum' in 'on clause'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\dental_automation\ar\ar_push.py", line 139, in main
+    cursor.execute(QUERY_OUTSTANDING_CLAIMS)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'c.AptNum' in 'on clause'
+
+2026-05-09 12:54:17 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 12:54 ===
+2026-05-09 12:54:17 [INFO] Database connected.
+2026-05-09 12:54:18 [INFO] ERROR: 1054 (42S22): Unknown column 'pl.ProcDate' in 'field list'
+2026-05-09 12:54:18 [INFO] Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'pl.ProcDate' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\dental_automation\ar\ar_push.py", line 135, in main
+    cursor.execute(QUERY_OUTSTANDING_CLAIMS)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'pl.ProcDate' in 'field list'
+
+2026-05-09 12:56:58 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 12:56 ===
+2026-05-09 12:56:58 [INFO] Database connected.
+2026-05-09 12:58:14 [INFO] Found 10511 outstanding claims.
+2026-05-09 12:58:14 [INFO] Database disconnected.
+2026-05-09 12:58:14 [INFO] Connecting to Google Sheets...
+2026-05-09 12:58:16 [INFO] Summary updated: $12,106,511.23 total AR
+2026-05-09 12:58:20 [INFO] Claims pushed: 10511 claims
+2026-05-09 12:58:21 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 12:58:21 [INFO] === AR Push Complete — 10511 claims, $12,106,511.23 outstanding ===
+2026-05-09 13:00:00 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:00 ===
+2026-05-09 13:00:00 [INFO] Database connected.
+2026-05-09 13:01:17 [INFO] Found 10511 outstanding claims.
+2026-05-09 13:01:17 [INFO] Database disconnected.
+2026-05-09 13:01:17 [INFO] Connecting to Google Sheets...
+2026-05-09 13:01:19 [INFO] Summary updated: $12,106,511.23 total AR
+2026-05-09 13:01:23 [INFO] Claims pushed: 10511 claims
+2026-05-09 13:01:24 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 13:01:24 [INFO] === AR Push Complete — 10511 claims, $12,106,511.23 outstanding ===
+2026-05-09 13:22:10 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:22 ===
+2026-05-09 13:22:10 [INFO] Database connected.
+2026-05-09 13:22:11 [INFO] ERROR: 1054 (42S22): Unknown column 'ip.ElectID' in 'field list'
+2026-05-09 13:22:11 [INFO] Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'ip.ElectID' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\dental_automation\ar\ar_push.py", line 146, in main
+    cursor.execute(QUERY_OUTSTANDING_CLAIMS)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'ip.ElectID' in 'field list'
+
+2026-05-09 13:22:39 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:22 ===
+2026-05-09 13:22:39 [INFO] Database connected.
+2026-05-09 13:22:40 [INFO] ERROR: 1054 (42S22): Unknown column 'ip.ElectID' in 'field list'
+2026-05-09 13:22:40 [INFO] Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'ip.ElectID' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\dental_automation\ar\ar_push.py", line 146, in main
+    cursor.execute(QUERY_OUTSTANDING_CLAIMS)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'ip.ElectID' in 'field list'
+
+2026-05-09 13:23:55 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:23 ===
+2026-05-09 13:23:55 [INFO] Database connected.
+2026-05-09 13:25:12 [INFO] Found 10512 outstanding claims.
+2026-05-09 13:25:12 [INFO] Database disconnected.
+2026-05-09 13:25:12 [INFO] Connecting to Google Sheets...
+2026-05-09 13:25:14 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 13:25:18 [INFO] Claims pushed: 10512 claims
+2026-05-09 13:25:19 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 13:25:19 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 13:30:18 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:30 ===
+2026-05-09 13:30:19 [INFO] Database connected.
+2026-05-09 13:31:32 [INFO] Found 10512 outstanding claims.
+2026-05-09 13:31:32 [INFO] Database disconnected.
+2026-05-09 13:31:32 [INFO] Connecting to Google Sheets...
+2026-05-09 13:31:34 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 13:31:39 [INFO] Claims pushed: 10512 claims
+2026-05-09 13:31:39 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 13:31:39 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 13:37:01 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:37 ===
+2026-05-09 13:37:01 [INFO] Database connected.
+2026-05-09 13:38:15 [INFO] Found 10512 outstanding claims.
+2026-05-09 13:38:15 [INFO] Database disconnected.
+2026-05-09 13:38:15 [INFO] Connecting to Google Sheets...
+2026-05-09 13:38:17 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 13:38:27 [INFO] Claims pushed: 10512 claims
+2026-05-09 13:38:28 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 13:38:28 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 13:42:24 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 13:42 ===
+2026-05-09 13:42:24 [INFO] Database connected.
+2026-05-09 13:43:39 [INFO] Found 10512 outstanding claims.
+2026-05-09 13:43:39 [INFO] Database disconnected.
+2026-05-09 13:43:39 [INFO] Connecting to Google Sheets...
+2026-05-09 13:43:41 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 13:43:46 [INFO] Claims pushed: 10512 claims
+2026-05-09 13:43:47 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 13:43:47 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 14:00:00 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 14:00 ===
+2026-05-09 14:00:00 [INFO] Database connected.
+2026-05-09 14:01:18 [INFO] Found 10512 outstanding claims.
+2026-05-09 14:01:18 [INFO] Database disconnected.
+2026-05-09 14:01:18 [INFO] Connecting to Google Sheets...
+2026-05-09 14:01:20 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 14:01:25 [INFO] Claims pushed: 10512 claims
+2026-05-09 14:01:25 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 14:01:25 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 14:11:08 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 14:11 ===
+2026-05-09 14:11:08 [INFO] Database connected.
+2026-05-09 14:12:25 [INFO] Found 10512 outstanding claims.
+2026-05-09 14:12:25 [INFO] Database disconnected.
+2026-05-09 14:12:25 [INFO] Connecting to Google Sheets...
+2026-05-09 14:12:28 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 14:12:36 [INFO] Claims pushed: 10512 claims
+2026-05-09 14:12:37 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 14:12:37 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 14:30:07 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 14:30 ===
+2026-05-09 14:30:07 [INFO] Database connected.
+2026-05-09 14:31:24 [INFO] Found 10512 outstanding claims.
+2026-05-09 14:31:24 [INFO] Database disconnected.
+2026-05-09 14:31:24 [INFO] Connecting to Google Sheets...
+2026-05-09 14:31:30 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 14:31:35 [INFO] Claims pushed: 10512 claims
+2026-05-09 14:31:36 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 14:31:36 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 14:40:54 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 14:40 ===
+2026-05-09 14:40:54 [INFO] Database connected.
+2026-05-09 14:42:14 [INFO] Found 10512 outstanding claims.
+2026-05-09 14:42:14 [INFO] Database disconnected.
+2026-05-09 14:42:14 [INFO] Connecting to Google Sheets...
+2026-05-09 14:42:16 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 14:42:21 [INFO] Claims pushed: 10512 claims
+2026-05-09 14:42:22 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 14:42:22 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 14:43:29 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 14:43 ===
+2026-05-09 14:43:29 [INFO] Database connected.
+2026-05-09 14:45:35 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 14:45 ===
+2026-05-09 14:45:35 [INFO] Database connected.
+2026-05-09 14:46:53 [INFO] Found 10512 outstanding claims.
+2026-05-09 14:46:53 [INFO] Database disconnected.
+2026-05-09 14:46:53 [INFO] Connecting to Google Sheets...
+2026-05-09 14:46:55 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 14:47:01 [INFO] Claims pushed: 10512 claims
+2026-05-09 14:47:02 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 14:47:02 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 15:08:25 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 15:08 ===
+2026-05-09 15:08:25 [INFO] Database connected.
+2026-05-09 15:20:27 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 15:20 ===
+2026-05-09 15:20:27 [INFO] Database connected.
+2026-05-09 15:38:52 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 15:38 ===
+2026-05-09 15:38:52 [INFO] Database connected.
+2026-05-09 15:40:08 [INFO] Found 10512 outstanding claims.
+2026-05-09 15:40:12 [INFO] Resubmit lookup: 8990 claims have a recent send date.
+2026-05-09 15:40:12 [INFO] ERROR: unsupported operand type(s) for -: 'datetime.date' and 'str'
+2026-05-09 15:40:12 [INFO] Traceback (most recent call last):
+  File "C:\dental_automation\ar\ar_push.py", line 194, in main
+    c["AgeDays"] = (today - best_date).days if best_date else 0
+                    ~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'str'
+
+2026-05-09 15:45:54 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 15:45 ===
+2026-05-09 15:45:54 [INFO] Database connected.
+2026-05-09 15:47:10 [INFO] Found 10512 outstanding claims.
+2026-05-09 15:47:14 [INFO] Resubmit lookup: 8990 claims have a recent send date.
+2026-05-09 15:47:14 [INFO] Database disconnected.
+2026-05-09 15:47:14 [INFO] Connecting to Google Sheets...
+2026-05-09 15:47:17 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 15:47:23 [INFO] Claims pushed: 10512 claims
+2026-05-09 15:47:24 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 15:47:24 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 16:00:00 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 16:00 ===
+2026-05-09 16:00:00 [INFO] Database connected.
+2026-05-09 16:01:16 [INFO] Found 10512 outstanding claims.
+2026-05-09 16:01:21 [INFO] Resubmit lookup: 8990 claims have a recent send date.
+2026-05-09 16:01:21 [INFO] Database disconnected.
+2026-05-09 16:01:21 [INFO] Connecting to Google Sheets...
+2026-05-09 16:01:24 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 16:01:29 [INFO] Claims pushed: 10512 claims
+2026-05-09 16:01:30 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 16:01:30 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 16:46:51 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 16:46 ===
+2026-05-09 16:46:51 [INFO] Database connected.
+2026-05-09 16:48:08 [INFO] Found 10512 outstanding claims.
+2026-05-09 16:48:13 [INFO] Resubmit lookup: 8990 claims have a recent send date.
+2026-05-09 16:48:13 [INFO] Database disconnected.
+2026-05-09 16:48:13 [INFO] Connecting to Google Sheets...
+2026-05-09 16:48:15 [INFO] Summary updated: $12,107,435.23 total AR
+2026-05-09 16:48:20 [INFO] Claims pushed: 10512 claims
+2026-05-09 16:48:21 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 16:48:21 [INFO] === AR Push Complete — 10512 claims, $12,107,435.23 outstanding ===
+2026-05-09 16:56:45 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 16:56 ===
+2026-05-09 16:56:45 [INFO] Database connected.
+2026-05-09 16:58:01 [INFO] Found 10512 outstanding claims.
+2026-05-09 16:58:05 [INFO] Resubmit lookup: 8990 claims have a recent send date.
+2026-05-09 16:58:05 [INFO] Dedupe: dropped 2409 superseded zombie claims, kept 8103 live.
+2026-05-09 16:58:05 [INFO] Database disconnected.
+2026-05-09 16:58:05 [INFO] Connecting to Google Sheets...
+2026-05-09 16:58:07 [INFO] Summary updated: $6,907,332.59 total AR
+2026-05-09 16:58:13 [INFO] Claims pushed: 8103 claims
+2026-05-09 16:58:13 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 16:58:13 [INFO] === AR Push Complete — 8103 claims, $6,907,332.59 outstanding ===
+2026-05-09 17:00:00 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 17:00 ===
+2026-05-09 17:00:00 [INFO] Database connected.
+2026-05-09 17:01:17 [INFO] Found 10512 outstanding claims.
+2026-05-09 17:01:22 [INFO] Resubmit lookup: 8990 claims have a recent send date.
+2026-05-09 17:01:22 [INFO] Dedupe: dropped 2409 superseded zombie claims, kept 8103 live.
+2026-05-09 17:01:22 [INFO] Database disconnected.
+2026-05-09 17:01:22 [INFO] Connecting to Google Sheets...
+2026-05-09 17:01:25 [INFO] Summary updated: $6,907,332.59 total AR
+2026-05-09 17:01:31 [INFO] Claims pushed: 8103 claims
+2026-05-09 17:01:31 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 17:01:31 [INFO] === AR Push Complete — 8103 claims, $6,907,332.59 outstanding ===
+2026-05-09 17:17:32 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 17:17 ===
+2026-05-09 17:17:32 [INFO] Database connected.
+2026-05-09 17:18:51 [INFO] Found 25167 outstanding claims (PreAuths excluded, InsEstimate > 0).
+2026-05-09 17:18:51 [INFO] Database disconnected.
+2026-05-09 17:18:51 [INFO] Connecting to Google Sheets...
+2026-05-09 17:18:52 [INFO] Summary updated: $6,881,249.80 total AR
+2026-05-09 17:19:04 [INFO] Claims pushed: 25167 claims
+2026-05-09 17:19:05 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 17:19:05 [INFO] === AR Push Complete — 25167 claims, $6,881,249.80 outstanding ===
+2026-05-09 17:28:25 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 17:28 ===
+2026-05-09 17:28:25 [INFO] Database connected.
+2026-05-09 17:29:38 [INFO] Found 26084 outstanding claims (PreAuths excluded, InsEstimate > 0).
+2026-05-09 17:29:38 [INFO] Database disconnected.
+2026-05-09 17:29:38 [INFO] Connecting to Google Sheets...
+2026-05-09 17:29:41 [INFO] Summary updated: $7,251,260.62 total AR
+2026-05-09 17:29:54 [INFO] Claims pushed: 26084 claims
+2026-05-09 17:29:55 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 17:29:55 [INFO] === AR Push Complete — 26084 claims, $7,251,260.62 outstanding ===
+2026-05-09 18:05:36 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 18:05 ===
+2026-05-09 18:05:36 [INFO] Database connected.
+2026-05-09 18:06:50 [INFO] Found 26084 outstanding claims (PreAuths excluded, InsEstimate > 0).
+2026-05-09 18:06:50 [INFO] Database disconnected.
+2026-05-09 18:06:50 [INFO] Connecting to Google Sheets...
+2026-05-09 18:06:53 [INFO] Summary updated: $7,251,260.62 total AR
+2026-05-09 18:07:02 [INFO] Claims pushed: 26084 claims
+2026-05-09 18:07:04 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 18:07:04 [INFO] === AR Push Complete — 26084 claims, $7,251,260.62 outstanding ===
+2026-05-09 18:13:37 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 18:13 ===
+2026-05-09 18:13:37 [INFO] Database connected.
+2026-05-09 18:14:50 [INFO] Found 26084 outstanding claims (PreAuths excluded, InsEstimate > 0).
+2026-05-09 18:14:50 [INFO] Database disconnected.
+2026-05-09 18:14:50 [INFO] Connecting to Google Sheets...
+2026-05-09 18:14:52 [INFO] Summary updated: $7,251,260.62 total AR
+2026-05-09 18:15:00 [INFO] Claims pushed: 26084 claims
+2026-05-09 18:15:01 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 18:15:01 [INFO] === AR Push Complete — 26084 claims, $7,251,260.62 outstanding ===
+2026-05-09 19:00:00 [INFO] === AR Push Started — Pristine Dental Center — 2026-05-09 19:00 ===
+2026-05-09 19:00:00 [INFO] Database connected.
+2026-05-09 19:01:16 [INFO] Found 26084 outstanding claims (PreAuths excluded, InsEstimate > 0).
+2026-05-09 19:01:16 [INFO] Database disconnected.
+2026-05-09 19:01:16 [INFO] Connecting to Google Sheets...
+2026-05-09 19:01:19 [INFO] Summary updated: $7,251,260.62 total AR
+2026-05-09 19:01:31 [INFO] Claims pushed: 26084 claims
+2026-05-09 19:01:32 [INFO] Overview updated for Pristine Dental Center
+2026-05-09 19:01:32 [INFO] === AR Push Complete — 26084 claims, $7,251,260.62 outstanding ===
